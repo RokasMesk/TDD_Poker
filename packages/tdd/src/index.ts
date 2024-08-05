@@ -1,3 +1,3 @@
-import Counter from './counter';
+import { comparePokerHands } from './comparePokerHands/comparePokerHands';
 
-export default new Counter();
+comparePokerHands('2H 3H 4H 5H 6H', 'KS AS TS QS JS');
